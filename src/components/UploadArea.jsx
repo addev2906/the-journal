@@ -48,6 +48,7 @@ function UploadArea({ onFileImport }) {
             onDragLeave={handleDrag}
             onDragOver={handleDrag}
             onDrop={handleDrop}
+            style={{ marginBottom: "29px" }}
         >
             <div className="upload-content">
                 <h2>Upload Your Save File</h2>

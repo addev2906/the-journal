@@ -7,6 +7,7 @@ import PictoCard from './components/pictoCard.jsx'
 import Header from './components/Header.jsx'
 import UploadArea from './components/UploadArea.jsx'
 import CompletionRate from './components/CompletionRate.jsx'
+import githubimg from './assets/github.webp'
 
 function App() {
   const [isFound, setIsFound] = useState([])
@@ -84,6 +85,7 @@ function App() {
 
   return (
     <>
+      <img src={githubimg} alt="GitHub" style={{ cursor: 'pointer', borderRadius: '50%', position: 'fixed', top: 10, right: 10, width: 40, height: 40, zIndex: 1000 }} onClick={() => window.open('https://github.com/addev2906/')} />
       <Header />
       <UploadArea onFileImport={handleFileImport} />
       <CompletionRate foundCount={isFound.filter(status => status === 'FOUND!').length} totalCount={values.length} />
