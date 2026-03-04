@@ -87,6 +87,12 @@ function App() {
       <img src={githubimg} alt="GitHub" style={{ cursor: 'pointer', borderRadius: '50%', position: 'fixed', top: 10, right: 10, width: 40, height: 40, zIndex: 1000 }} onClick={() => window.open('https://github.com/addev2906/')} />
       <Header />
       <UploadArea onFileImport={handleFileImport} />
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
+        <button style={{ padding: '10px 20px', fontSize: '16px', backgroundColor: '#d5a04a', color: '#fff', border: 'none', borderRadius: '5px', cursor: 'pointer' }} onClick={() => {
+          navigator.clipboard.writeText('%LOCALAPPDATA%\Sandfall\Saved\SaveGames')
+          alert('File path copied to clipboard:\n%LOCALAPPDATA%\\Sandfall\\Saved\\SaveGames')
+        }}>Copy path to save location(Windows)</button>
+      </div>
       <CompletionRate foundCount={isFound.filter(status => status === 'FOUND!').length} totalCount={values.length} />
       <input type='checkbox' id='showNotFoundOnly' style={{ marginBottom: '20px' , marginLeft: '30px'}} onChange={(e) => {
         const showNotFoundOnly = e.target.checked;
