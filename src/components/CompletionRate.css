@@ -1,0 +1,6 @@
+.completion-rate{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #dcc6a2;
+}

@@ -6,22 +6,37 @@ import init, { sav_to_json, json_to_sav } from "./utility/uesave/uesave_wasm.js"
 import PictoCard from './components/pictoCard.jsx'
 import Header from './components/Header.jsx'
 import UploadArea from './components/UploadArea.jsx'
+import CompletionRate from './components/CompletionRate.jsx'
 
 function App() {
   const [isFound, setIsFound] = useState([])
+  // const [pictoCount,setPictoCount] = useState(0)
 
   async function processSavegameData(result){
     const savegameData = JSON.parse(result)
-    console.log(savegameData.root)
+    console.log(savegameData)
+    let player_pictos_size = 0;
+    let playerPictosArray = null;
+    try {
+      playerPictosArray = savegameData?.root?.properties?.PassiveEffectsProgressions_0;
+      if (Array.isArray(playerPictosArray)) {
+        player_pictos_size = playerPictosArray.length;
+      } else {
+        player_pictos_size = 0;
+        playerPictosArray = [];
+      }
+    } catch (e) {
+      player_pictos_size = 0;
+      playerPictosArray = [];
+    }
 
-    let player_pictos_size = savegameData.root.properties.PassiveEffectsProgressions_0.length;
-
-    console.log("Size:",player_pictos_size);
+    console.log("Size:", player_pictos_size);
 
     let pictos = [];
-    for(let i = 0;i<player_pictos_size;i++){
-        let pictoName = savegameData.root.properties.PassiveEffectsProgressions_0[i].PassiveEffectName_3_A92DB6CC4549450728A867A714ADF6C5_0;
-        pictos.push(pictoName);
+    for (let i = 0; i < player_pictos_size; i++) {
+      const entry = playerPictosArray[i];
+      const pictoName = entry?.PassiveEffectName_3_A92DB6CC4549450728A867A714ADF6C5_0;
+      if (pictoName) pictos.push(pictoName);
     }
 
     pictos.sort();
@@ -71,9 +86,10 @@ function App() {
     <>
       <Header />
       <UploadArea onFileImport={handleFileImport} />
+      <CompletionRate foundCount={isFound.filter(status => status === 'FOUND!').length} totalCount={values.length} />
       <div className="card-grid">
         {values.map((name, idx) => {
-          return <PictoCard name={name} found={isFound[idx]} />
+          return <PictoCard key={idx} name={name} found={isFound[idx]} />
         })}
       </div>
     
