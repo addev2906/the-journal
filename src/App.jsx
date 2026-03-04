@@ -11,7 +11,6 @@ import githubimg from './assets/github.webp'
 
 function App() {
   const [isFound, setIsFound] = useState([])
-  // const [pictoCount,setPictoCount] = useState(0)
 
   async function processSavegameData(result){
     const savegameData = JSON.parse(result)
