@@ -88,6 +88,18 @@ function App() {
       <Header />
       <UploadArea onFileImport={handleFileImport} />
       <CompletionRate foundCount={isFound.filter(status => status === 'FOUND!').length} totalCount={values.length} />
+      <input type='checkbox' id='showNotFoundOnly' style={{ marginBottom: '20px' , marginLeft: '30px'}} onChange={(e) => {
+        const showNotFoundOnly = e.target.checked;
+        const cards = document.querySelectorAll('.card');
+        cards.forEach((card, idx) => {
+          if (showNotFoundOnly) {
+            card.style.display = isFound[idx] === 'Not Found' ? 'flex' : 'none';
+          } else {
+            card.style.display = 'flex';
+          }
+        });
+      }} />
+      <label htmlFor='showNotFoundOnly' style={{ color: '#a2b8dd', fontSize: '21px', fontFamily: 'Bebas Neue', letterSpacing: '0.05em', marginBottom: '20px' }}>Show undiscovered</label>
       <div className="card-grid">
         {values.map((name, idx) => {
           return <PictoCard key={idx} name={name} found={isFound[idx]} />
