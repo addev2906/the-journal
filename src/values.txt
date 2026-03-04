@@ -1,0 +1,210 @@
+Energising Attack I
+Energising Parry
+Energising Turn
+AP Discount
+Energising Burn
+Energising Powerful
+Energising Rush
+Energising Shell
+Accelerating Heal
+Aegis Revival
+Alternating Critical
+Anti-Blight
+Anti-Burn
+Anti-Charm
+Anti-Freeze
+Anti-Stun
+Attack Lifesteal
+Augmented First Strike
+Augmented Aim
+Augmented Attack
+Auto Death
+Energising Cleanse
+Auto Powerful
+Auto Regen
+Auto Rush
+Auto Shell
+Base Shield
+Beneficial Contamination
+Dead Energy II
+Breaking Burn
+Critical Break
+Breaking Slow
+Quick Break
+Breaking Shots
+Break Specialist
+Breaker
+Breaking Attack
+Breaking Counter
+Breaking Death
+Empowering Break
+Burn Affinity
+Longer Burn
+Burning Break
+Burning Death
+Burning Mark
+Cheater
+Cleansing Tint
+Clea's Death
+Clea's Life
+Combo Attack I
+Combo Attack II
+Combo Attack III
+Confident
+Confident Fighter
+Consuming Attack
+Augmented Counter I
+Augmented Counter II
+Augmented Counter III
+Critical Burn
+Critical Vulnerability
+Critical Weakness
+Critical Stun
+Critical Moment
+Damage Share
+Dead Energy I
+Death Bomb
+Exposing Break
+Defensive Mode
+Exposing Attack
+Draining Cleanse
+Dodger
+Energy Master
+Double Burn
+Double Mark
+Double Third
+Effective Support
+Effective Heal
+Empowered Healer
+Empowering Jumps
+Energising Heal
+Energising Attack II
+Energising Break
+Energising Death
+Exhausting Power
+Faster Than Strong
+Feint
+First Life
+First Offensive
+First Strike
+Burning Shots
+Energising Shots
+Marking Shots
+Powerful Shots
+Protecting Shots
+Accelerating Shots
+Frenzy
+Powered Attack
+Glass Cannon
+Gradient Break
+Gradient Breaker
+Charging Counter
+Energising Gradient
+Gradient Fighter
+Charging Mark
+Charging Alteration
+Charging Burn
+Charging Critical
+Charging Stun
+Gradient Overcharge
+Gradient Parry
+Charging Attack
+Charging Tint
+Charging Weakness
+Fueling Break
+Greater Defenceless
+Greater Powerful
+Greater Powerless
+Greater Shell
+Greater Slow
+Greater Rush
+Healing Boon
+Healing Counter
+Healing Death
+Healing Fire
+Healing Mark
+Healing Parry
+Healing Share
+Healing Stun
+Healing Tint Energy
+Immaculate
+In Medias Res
+Energising Start I
+Energising Start II
+Energising Start III
+Energising Start IV
+Inverted Affinity
+Energising Jump
+At Death's Door
+Last Stand Critical
+Empowering Last Stand
+Protecting Last Stand
+Accelerating Last Stand
+Longer Break
+Longer Powerful
+Longer Rush
+Longer Shell
+Perilous Parry
+Marking Break
+Painted Power
+Painter
+Piercing Shot
+Empowering Dodge
+Energising Pain
+Powerful Heal
+Powerful Mark
+Powerful On Shell
+Powerful Shield
+Empowering Attack
+Empowering Tint
+Enfeebling Attack
+Pro Retreat
+Protecting Death
+Protecting Heal
+Random Defense
+Recovery
+Empowering Parry
+Energising Revive
+Revive Paradox
+Revive Tint Energy
+Powerful Revive
+Rejuvenating Revive
+Rewarding Mark
+Roulette
+Rush On Powerful
+SOS Healing Tint
+Second Chance
+Shared Care
+Shell On Rush
+Protecting Attack
+Protecting Tint
+Shield Affinity
+Shielding Death
+Shielding Tint
+Shortcut
+Staggering Attack
+Slowing Break
+Slowing Attack
+Sniper
+Solidifying
+Solo Fighter
+SOS Power
+SOS Rush
+SOS Shell
+Accelerating Tint
+Full Strength
+Stay Marked
+Stun Boost
+Energising Stun
+Survivor
+Sweet Kill
+Tainted
+Teamwork
+The One
+Time Tint
+Trigger-happy
+Versatile
+Energetic Healer
+Warming Up
+Enfeebling Mark
+Weakness Gain
