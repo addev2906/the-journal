@@ -8,7 +8,7 @@ function PictoCard({ name, found}) {
       <img src={img} className="pictoimg" alt="picto" style={{marginTop:'15px'}} />
       <hr style={{ width: '60%', margin: '8px auto', borderColor: '#a2b8dd', boxShadow: '0px 1px 6px rgba(0,0,0,0.6)' }} />
       <h3 style={{ color: '#dcc6a2' }}>{name}</h3>
-      <p style={{ color: '#ffff'}}>{found}</p>
+      <p style={{ color: '#ffff', fontSize:'18px', fontFamily: 'Bebas Neue' , letterSpacing: '0.05em'}}>{found}</p>
     </div>
   )
 }

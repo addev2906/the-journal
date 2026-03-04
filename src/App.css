@@ -2,6 +2,10 @@
   font-family: 'Cinzel';
   src: url('./assets/font/Cinzel-VariableFont_wght.ttf');
 }
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./assets/font/BebasNeue-Regular.ttf');
+}
 
 :root, html, body {
     font-family: 'Cinzel', serif;
@@ -38,7 +42,16 @@
     border-radius: 20px;
     /* padding: 20px; */
     gap: 8px;
+    transition: all 0.3s ease;
 }
+
+.card:hover{
+    transform: translateY(-10px);
+    filter: brightness(1.15);
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.4);
+    /* border-color: #28cb6c; */
+}
+
 .pictoimg{
     display: flex;
     justify-content: center;
