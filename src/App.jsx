@@ -103,7 +103,7 @@ function App() {
       <Header />
       <UploadArea onFileImport={handleFileImport} />
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
-        <button style={{ padding: '10px 20px', fontSize: '16px', backgroundColor: '#d5a04a', color: '#fff', border: 'none', borderRadius: '5px', cursor: 'pointer' }} onClick={() => {
+        <button style={{ padding: '10px 20px', fontSize: '16px', backgroundColor: '#d5a04a', color: '#fff', border: 'none', borderRadius: '5px', cursor: 'pointer', fontFamily: 'Cinzel' }} onClick={() => {
           navigator.clipboard.writeText('%LOCALAPPDATA%\\Sandfall\\Saved\\SaveGames')
           alert('File path copied to clipboard:\n%LOCALAPPDATA%\\Sandfall\\Saved\\SaveGames')
         }}>Copy path to save location(Windows)</button>
