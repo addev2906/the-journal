@@ -18,7 +18,7 @@ A web-based tracker for pictos in *Clair Obscur: Expedition 33* save files. Uplo
 - **Webassembly**: To run uesave binary directly in the browser.
 
 ## Installation
-
+https://the-journal33.netlify.app/ (you can use the already published site)
 1. Clone the repository:
    ```bash
    git clone https://github.com/addev2906/the-journal.git
